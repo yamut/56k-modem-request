@@ -1,0 +1,29 @@
+{
+  "name": "dmattern/56k-modem-request",
+  "description": "Take your transfers back to a simpler time",
+  "minimum-stability": "dev",
+  "require": {
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Dan Mattern",
+      "email": "dan@danmattern.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dmattern\\Http\\": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.2.0"
+    }
+  }
+}
